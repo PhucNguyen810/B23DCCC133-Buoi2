@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(157, 56, 56);
 }
 
 .App-link {
@@ -35,4 +35,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  border-right: 1px solid #f3efef;
+  padding: 20px;
+  background-color: #ac4a4a;
+}
+
+.main-content {
+  padding: 20px;
+  flex-grow: 1;
+  background-color: #e9cbcb;
+}
+
+.input-group, .search-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px}
+
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #db8c57;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.add-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #148118;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #63d167;
 }
